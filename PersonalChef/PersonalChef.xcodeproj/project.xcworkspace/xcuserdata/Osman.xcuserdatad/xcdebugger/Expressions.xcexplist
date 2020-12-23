@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "BrowseFoodViewController.tableView(_:cellForRowAt:):BrowseFoodViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "RecipeInformationViewController.initializeRecipeInformation():RecipeInformationViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "RecipeInformationViewController.viewDidLoad():RecipeInformationViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "RecipeInformationViewController.parseIngregients(_:):RecipeInformationViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "RecipesTableViewController.tableView(_:cellForRowAt:):RecipesTableViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "SavedRecipesTableViewController.initializeRecipeImages():SavedRecipesTableViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "RandomFoodGenerator.readFromCSVFile():RandomFoodGenerator.swift">
+      </ContextState>
+      <ContextState
+         contextName = "RecipesTableViewController.initializeRecipeTable():RecipesTableViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "mainMachine.browse.recipes">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "FavoriteFoodsTableViewController.initializeFoodItems():FavoriteFoodsTableViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "RecipeInformationViewController.tableView(_:cellForRowAt:):RecipeInformationViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "ingredients[rowIndex]">
+            </PersistentString>
+            <PersistentString
+               value = "ingredients[rowIndex].1">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "RecipesTableViewController.initializeEachRecipe(_:_:):RecipesTableViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "mainMachine.browse.recipes">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC1B7B7124402B420098CDE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1B7B7024402B420098CDE9 /* AppDelegate.swift */; };
+		AC1B7B7324402B420098CDE9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1B7B7224402B420098CDE9 /* SceneDelegate.swift */; };
+		AC1B7B7824402B420098CDE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC1B7B7624402B420098CDE9 /* Main.storyboard */; };
+		AC1B7B7B24402B420098CDE9 /* PersonalChef.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AC1B7B7924402B420098CDE9 /* PersonalChef.xcdatamodeld */; };
+		AC1B7B7D24402B430098CDE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC1B7B7C24402B430098CDE9 /* Assets.xcassets */; };
+		AC1B7B8024402B430098CDE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC1B7B7E24402B430098CDE9 /* LaunchScreen.storyboard */; };
+		AC1B7BAE2445130D0098CDE9 /* MainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1B7BAD2445130D0098CDE9 /* MainPageViewController.swift */; };
+		AC1B7BB02445134F0098CDE9 /* RandomFoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1B7BAF2445134F0098CDE9 /* RandomFoodViewController.swift */; };
+		AC1B7BB2244513920098CDE9 /* FavoriteFoodsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1B7BB1244513920098CDE9 /* FavoriteFoodsTableViewController.swift */; };
+		AC1B7BB4244513FC0098CDE9 /* SavedRecipesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1B7BB3244513FC0098CDE9 /* SavedRecipesTableViewController.swift */; };
+		AC1B7BB6244514690098CDE9 /* RecipeInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1B7BB5244514690098CDE9 /* RecipeInformationViewController.swift */; };
+		AC1B7BBA2445152B0098CDE9 /* BrowseFoodsUITableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1B7BB92445152B0098CDE9 /* BrowseFoodsUITableViewController.swift */; };
+		AC1B7BBC244515880098CDE9 /* RecipesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1B7BBB244515880098CDE9 /* RecipesTableViewController.swift */; };
+		AC1B7BBE244519BD0098CDE9 /* objectMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1B7BBD244519BD0098CDE9 /* objectMachine.swift */; };
+		AC1B7BFB244B91B20098CDE9 /* BrowseObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1B7BFA244B91B20098CDE9 /* BrowseObject.swift */; };
+		AC1B7BFD244B91CC0098CDE9 /* mainPageObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1B7BFC244B91CC0098CDE9 /* mainPageObject.swift */; };
+		AC1B7BFF244B921E0098CDE9 /* FavoriteObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1B7BFE244B921E0098CDE9 /* FavoriteObject.swift */; };
+		AC1B7C02244B93000098CDE9 /* FoodItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1B7C01244B93000098CDE9 /* FoodItem.swift */; };
+		AC1B7C04244B932C0098CDE9 /* RecipeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1B7C03244B932C0098CDE9 /* RecipeItem.swift */; };
+		AC1B7C18245BC1010098CDE9 /* BrowseFoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1B7C17245BC1010098CDE9 /* BrowseFoodViewController.swift */; };
+		AC1B7C1B2462653A0098CDE9 /* RandomFoodGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1B7C1924616A710098CDE9 /* RandomFoodGenerator.swift */; };
+		AC1B7C1D246265D60098CDE9 /* allfoods.csv in Resources */ = {isa = PBXBuildFile; fileRef = AC1B7C1C246265D60098CDE9 /* allfoods.csv */; };
+		AC1B7C232462A1C20098CDE9 /* allfoods2.csv in Resources */ = {isa = PBXBuildFile; fileRef = AC1B7C222462A1C20098CDE9 /* allfoods2.csv */; };
+		AC1B7C3B2462A2180098CDE9 /* Conch Chowder.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC1B7C242462A2160098CDE9 /* Conch Chowder.jpg */; };
+		AC1B7C3C2462A2180098CDE9 /* Blackened Redfish.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC1B7C252462A2160098CDE9 /* Blackened Redfish.jpg */; };
+		AC1B7C3D2462A2180098CDE9 /* Burger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC1B7C262462A2160098CDE9 /* Burger.jpg */; };
+		AC1B7C3E2462A2180098CDE9 /* Burgoo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC1B7C272462A2160098CDE9 /* Burgoo.jpg */; };
+		AC1B7C3F2462A2180098CDE9 /* Buffalo Wings.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC1B7C282462A2160098CDE9 /* Buffalo Wings.jpg */; };
+		AC1B7C402462A2180098CDE9 /* Clam Chowder.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AC1B7C292462A2160098CDE9 /* Clam Chowder.jpeg */; };
+		AC1B7C412462A2180098CDE9 /* Chorizo-Stuffed Medjool Dates.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC1B7C2A2462A2160098CDE9 /* Chorizo-Stuffed Medjool Dates.jpg */; };
+		AC1B7C422462A2180098CDE9 /* Black Cod With Miso.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC1B7C2B2462A2160098CDE9 /* Black Cod With Miso.jpg */; };
+		AC1B7C432462A2180098CDE9 /* Black Label Burger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC1B7C2C2462A2170098CDE9 /* Black Label Burger.jpg */; };
+		AC1B7C442462A2180098CDE9 /* Chopped Barbecue Sandwich.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC1B7C2D2462A2170098CDE9 /* Chopped Barbecue Sandwich.jpg */; };
+		AC1B7C452462A2180098CDE9 /* Chicken for Two.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC1B7C2E2462A2170098CDE9 /* Chicken for Two.jpg */; };
+		AC1B7C462462A2180098CDE9 /* Cheesesteak.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC1B7C2F2462A2170098CDE9 /* Cheesesteak.jpg */; };
+		AC1B7C472462A2180098CDE9 /* Cheeseburger.png in Resources */ = {isa = PBXBuildFile; fileRef = AC1B7C302462A2170098CDE9 /* Cheeseburger.png */; };
+		AC1B7C482462A2180098CDE9 /* Canlis Salad.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC1B7C312462A2170098CDE9 /* Canlis Salad.jpg */; };
+		AC1B7C492462A2180098CDE9 /* Carnitas Burrito.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC1B7C322462A2170098CDE9 /* Carnitas Burrito.jpg */; };
+		AC1B7C4A2462A2180098CDE9 /* Chili Dog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC1B7C332462A2170098CDE9 /* Chili Dog.jpg */; };
+		AC1B7C4B2462A2180098CDE9 /* Cioppino.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC1B7C342462A2170098CDE9 /* Cioppino.jpg */; };
+		AC1B7C4C2462A2180098CDE9 /* Classic Chili.JPG in Resources */ = {isa = PBXBuildFile; fileRef = AC1B7C352462A2170098CDE9 /* Classic Chili.JPG */; };
+		AC1B7C4D2462A2180098CDE9 /* colcannon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC1B7C362462A2170098CDE9 /* colcannon.jpg */; };
+		AC1B7C4E2462A2180098CDE9 /* Cheese Slice.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC1B7C372462A2180098CDE9 /* Cheese Slice.jpg */; };
+		AC1B7C4F2462A2180098CDE9 /* Chicken and Waffles.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC1B7C382462A2180098CDE9 /* Chicken and Waffles.jpg */; };
+		AC1B7C502462A2180098CDE9 /* Charbroiled Oysters.JPG in Resources */ = {isa = PBXBuildFile; fileRef = AC1B7C392462A2180098CDE9 /* Charbroiled Oysters.JPG */; };
+		AC1B7C512462A2180098CDE9 /* Chicago-Style Hot Dog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC1B7C3A2462A2180098CDE9 /* Chicago-Style Hot Dog.jpg */; };
+		AC1B7C5624633B290098CDE9 /* RecipeUITableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1B7C5524633B290098CDE9 /* RecipeUITableViewCell.swift */; };
+		AC1B7C58246385710098CDE9 /* FavoriteFoodTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1B7C57246385710098CDE9 /* FavoriteFoodTableViewCell.swift */; };
+		AC1B7C5A2463886F0098CDE9 /* NearbyFavoriteFoodUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1B7C592463886F0098CDE9 /* NearbyFavoriteFoodUIViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AC1B7B6D24402B420098CDE9 /* PersonalChef.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonalChef.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC1B7B7024402B420098CDE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC1B7B7224402B420098CDE9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AC1B7B7724402B420098CDE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC1B7B7A24402B420098CDE9 /* PersonalChef.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PersonalChef.xcdatamodel; sourceTree = "<group>"; };
+		AC1B7B7C24402B430098CDE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC1B7B7F24402B430098CDE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC1B7B8124402B430098CDE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC1B7BAD2445130D0098CDE9 /* MainPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageViewController.swift; sourceTree = "<group>"; };
+		AC1B7BAF2445134F0098CDE9 /* RandomFoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomFoodViewController.swift; sourceTree = "<group>"; };
+		AC1B7BB1244513920098CDE9 /* FavoriteFoodsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteFoodsTableViewController.swift; sourceTree = "<group>"; };
+		AC1B7BB3244513FC0098CDE9 /* SavedRecipesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedRecipesTableViewController.swift; sourceTree = "<group>"; };
+		AC1B7BB5244514690098CDE9 /* RecipeInformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeInformationViewController.swift; sourceTree = "<group>"; };
+		AC1B7BB92445152B0098CDE9 /* BrowseFoodsUITableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseFoodsUITableViewController.swift; sourceTree = "<group>"; };
+		AC1B7BBB244515880098CDE9 /* RecipesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesTableViewController.swift; sourceTree = "<group>"; };
+		AC1B7BBD244519BD0098CDE9 /* objectMachine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = objectMachine.swift; sourceTree = "<group>"; };
+		AC1B7BFA244B91B20098CDE9 /* BrowseObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseObject.swift; sourceTree = "<group>"; };
+		AC1B7BFC244B91CC0098CDE9 /* mainPageObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainPageObject.swift; sourceTree = "<group>"; };
+		AC1B7BFE244B921E0098CDE9 /* FavoriteObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteObject.swift; sourceTree = "<group>"; };
+		AC1B7C01244B93000098CDE9 /* FoodItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodItem.swift; sourceTree = "<group>"; };
+		AC1B7C03244B932C0098CDE9 /* RecipeItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeItem.swift; sourceTree = "<group>"; };
+		AC1B7C17245BC1010098CDE9 /* BrowseFoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseFoodViewController.swift; sourceTree = "<group>"; };
+		AC1B7C1924616A710098CDE9 /* RandomFoodGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomFoodGenerator.swift; sourceTree = "<group>"; };
+		AC1B7C1C246265D60098CDE9 /* allfoods.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = allfoods.csv; sourceTree = "<group>"; };
+		AC1B7C222462A1C20098CDE9 /* allfoods2.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = allfoods2.csv; path = ../../../../Downloads/allfoods2.csv; sourceTree = "<group>"; };
+		AC1B7C242462A2160098CDE9 /* Conch Chowder.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Conch Chowder.jpg"; sourceTree = "<group>"; };
+		AC1B7C252462A2160098CDE9 /* Blackened Redfish.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Blackened Redfish.jpg"; sourceTree = "<group>"; };
+		AC1B7C262462A2160098CDE9 /* Burger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Burger.jpg; sourceTree = "<group>"; };
+		AC1B7C272462A2160098CDE9 /* Burgoo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Burgoo.jpg; sourceTree = "<group>"; };
+		AC1B7C282462A2160098CDE9 /* Buffalo Wings.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Buffalo Wings.jpg"; sourceTree = "<group>"; };
+		AC1B7C292462A2160098CDE9 /* Clam Chowder.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Clam Chowder.jpeg"; sourceTree = "<group>"; };
+		AC1B7C2A2462A2160098CDE9 /* Chorizo-Stuffed Medjool Dates.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Chorizo-Stuffed Medjool Dates.jpg"; sourceTree = "<group>"; };
+		AC1B7C2B2462A2160098CDE9 /* Black Cod With Miso.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Black Cod With Miso.jpg"; sourceTree = "<group>"; };
+		AC1B7C2C2462A2170098CDE9 /* Black Label Burger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Black Label Burger.jpg"; sourceTree = "<group>"; };
+		AC1B7C2D2462A2170098CDE9 /* Chopped Barbecue Sandwich.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Chopped Barbecue Sandwich.jpg"; sourceTree = "<group>"; };
+		AC1B7C2E2462A2170098CDE9 /* Chicken for Two.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Chicken for Two.jpg"; sourceTree = "<group>"; };
+		AC1B7C2F2462A2170098CDE9 /* Cheesesteak.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Cheesesteak.jpg; sourceTree = "<group>"; };
+		AC1B7C302462A2170098CDE9 /* Cheeseburger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cheeseburger.png; sourceTree = "<group>"; };
+		AC1B7C312462A2170098CDE9 /* Canlis Salad.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Canlis Salad.jpg"; sourceTree = "<group>"; };
+		AC1B7C322462A2170098CDE9 /* Carnitas Burrito.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Carnitas Burrito.jpg"; sourceTree = "<group>"; };
+		AC1B7C332462A2170098CDE9 /* Chili Dog.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Chili Dog.jpg"; sourceTree = "<group>"; };
+		AC1B7C342462A2170098CDE9 /* Cioppino.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Cioppino.jpg; sourceTree = "<group>"; };
+		AC1B7C352462A2170098CDE9 /* Classic Chili.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Classic Chili.JPG"; sourceTree = "<group>"; };
+		AC1B7C362462A2170098CDE9 /* colcannon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = colcannon.jpg; sourceTree = "<group>"; };
+		AC1B7C372462A2180098CDE9 /* Cheese Slice.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cheese Slice.jpg"; sourceTree = "<group>"; };
+		AC1B7C382462A2180098CDE9 /* Chicken and Waffles.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Chicken and Waffles.jpg"; sourceTree = "<group>"; };
+		AC1B7C392462A2180098CDE9 /* Charbroiled Oysters.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Charbroiled Oysters.JPG"; sourceTree = "<group>"; };
+		AC1B7C3A2462A2180098CDE9 /* Chicago-Style Hot Dog.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Chicago-Style Hot Dog.jpg"; sourceTree = "<group>"; };
+		AC1B7C5524633B290098CDE9 /* RecipeUITableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeUITableViewCell.swift; sourceTree = "<group>"; };
+		AC1B7C57246385710098CDE9 /* FavoriteFoodTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteFoodTableViewCell.swift; sourceTree = "<group>"; };
+		AC1B7C592463886F0098CDE9 /* NearbyFavoriteFoodUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyFavoriteFoodUIViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC1B7B6A24402B420098CDE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC1B7B6424402B410098CDE9 = {
+			isa = PBXGroup;
+			children = (
+				AC1B7B6F24402B420098CDE9 /* PersonalChef */,
+				AC1B7B6E24402B420098CDE9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC1B7B6E24402B420098CDE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC1B7B6D24402B420098CDE9 /* PersonalChef.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC1B7B6F24402B420098CDE9 /* PersonalChef */ = {
+			isa = PBXGroup;
+			children = (
+				AC1B7C542462A2890098CDE9 /* FoodImages */,
+				AC1B7C1C246265D60098CDE9 /* allfoods.csv */,
+				AC1B7C222462A1C20098CDE9 /* allfoods2.csv */,
+				AC1B7C00244B92B30098CDE9 /* Models */,
+				AC1B7BAC244510CC0098CDE9 /* BrowseFoods */,
+				AC1B7BAB244510C40098CDE9 /* MainPage */,
+				AC1B7BAA244510B40098CDE9 /* FavoriteFoods */,
+				AC1B7B7024402B420098CDE9 /* AppDelegate.swift */,
+				AC1B7B7224402B420098CDE9 /* SceneDelegate.swift */,
+				AC1B7B7624402B420098CDE9 /* Main.storyboard */,
+				AC1B7B7C24402B430098CDE9 /* Assets.xcassets */,
+				AC1B7B7E24402B430098CDE9 /* LaunchScreen.storyboard */,
+				AC1B7B8124402B430098CDE9 /* Info.plist */,
+				AC1B7B7924402B420098CDE9 /* PersonalChef.xcdatamodeld */,
+				AC1B7BBD244519BD0098CDE9 /* objectMachine.swift */,
+				AC1B7C1924616A710098CDE9 /* RandomFoodGenerator.swift */,
+			);
+			path = PersonalChef;
+			sourceTree = "<group>";
+		};
+		AC1B7BAA244510B40098CDE9 /* FavoriteFoods */ = {
+			isa = PBXGroup;
+			children = (
+				AC1B7BB1244513920098CDE9 /* FavoriteFoodsTableViewController.swift */,
+				AC1B7BB3244513FC0098CDE9 /* SavedRecipesTableViewController.swift */,
+				AC1B7BB5244514690098CDE9 /* RecipeInformationViewController.swift */,
+				AC1B7BFE244B921E0098CDE9 /* FavoriteObject.swift */,
+				AC1B7C57246385710098CDE9 /* FavoriteFoodTableViewCell.swift */,
+				AC1B7C592463886F0098CDE9 /* NearbyFavoriteFoodUIViewController.swift */,
+			);
+			path = FavoriteFoods;
+			sourceTree = "<group>";
+		};
+		AC1B7BAB244510C40098CDE9 /* MainPage */ = {
+			isa = PBXGroup;
+			children = (
+				AC1B7BAD2445130D0098CDE9 /* MainPageViewController.swift */,
+				AC1B7BAF2445134F0098CDE9 /* RandomFoodViewController.swift */,
+				AC1B7BFC244B91CC0098CDE9 /* mainPageObject.swift */,
+			);
+			path = MainPage;
+			sourceTree = "<group>";
+		};
+		AC1B7BAC244510CC0098CDE9 /* BrowseFoods */ = {
+			isa = PBXGroup;
+			children = (
+				AC1B7BB92445152B0098CDE9 /* BrowseFoodsUITableViewController.swift */,
+				AC1B7BFA244B91B20098CDE9 /* BrowseObject.swift */,
+				AC1B7C17245BC1010098CDE9 /* BrowseFoodViewController.swift */,
+				AC1B7BBB244515880098CDE9 /* RecipesTableViewController.swift */,
+				AC1B7C5524633B290098CDE9 /* RecipeUITableViewCell.swift */,
+			);
+			path = BrowseFoods;
+			sourceTree = "<group>";
+		};
+		AC1B7C00244B92B30098CDE9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AC1B7C01244B93000098CDE9 /* FoodItem.swift */,
+				AC1B7C03244B932C0098CDE9 /* RecipeItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AC1B7C542462A2890098CDE9 /* FoodImages */ = {
+			isa = PBXGroup;
+			children = (
+				AC1B7C2B2462A2160098CDE9 /* Black Cod With Miso.jpg */,
+				AC1B7C2C2462A2170098CDE9 /* Black Label Burger.jpg */,
+				AC1B7C252462A2160098CDE9 /* Blackened Redfish.jpg */,
+				AC1B7C282462A2160098CDE9 /* Buffalo Wings.jpg */,
+				AC1B7C262462A2160098CDE9 /* Burger.jpg */,
+				AC1B7C272462A2160098CDE9 /* Burgoo.jpg */,
+				AC1B7C312462A2170098CDE9 /* Canlis Salad.jpg */,
+				AC1B7C322462A2170098CDE9 /* Carnitas Burrito.jpg */,
+				AC1B7C392462A2180098CDE9 /* Charbroiled Oysters.JPG */,
+				AC1B7C372462A2180098CDE9 /* Cheese Slice.jpg */,
+				AC1B7C302462A2170098CDE9 /* Cheeseburger.png */,
+				AC1B7C292462A2160098CDE9 /* Clam Chowder.jpeg */,
+				AC1B7C352462A2170098CDE9 /* Classic Chili.JPG */,
+				AC1B7C362462A2170098CDE9 /* colcannon.jpg */,
+				AC1B7C242462A2160098CDE9 /* Conch Chowder.jpg */,
+				AC1B7C2F2462A2170098CDE9 /* Cheesesteak.jpg */,
+				AC1B7C3A2462A2180098CDE9 /* Chicago-Style Hot Dog.jpg */,
+				AC1B7C382462A2180098CDE9 /* Chicken and Waffles.jpg */,
+				AC1B7C2E2462A2170098CDE9 /* Chicken for Two.jpg */,
+				AC1B7C332462A2170098CDE9 /* Chili Dog.jpg */,
+				AC1B7C2D2462A2170098CDE9 /* Chopped Barbecue Sandwich.jpg */,
+				AC1B7C2A2462A2160098CDE9 /* Chorizo-Stuffed Medjool Dates.jpg */,
+				AC1B7C342462A2170098CDE9 /* Cioppino.jpg */,
+			);
+			path = FoodImages;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC1B7B6C24402B420098CDE9 /* PersonalChef */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC1B7B8424402B430098CDE9 /* Build configuration list for PBXNativeTarget "PersonalChef" */;
+			buildPhases = (
+				AC1B7B6924402B420098CDE9 /* Sources */,
+				AC1B7B6A24402B420098CDE9 /* Frameworks */,
+				AC1B7B6B24402B420098CDE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PersonalChef;
+			productName = PersonalChef;
+			productReference = AC1B7B6D24402B420098CDE9 /* PersonalChef.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC1B7B6524402B410098CDE9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Osman Bakari";
+				TargetAttributes = {
+					AC1B7B6C24402B420098CDE9 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = AC1B7B6824402B410098CDE9 /* Build configuration list for PBXProject "PersonalChef" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC1B7B6424402B410098CDE9;
+			productRefGroup = AC1B7B6E24402B420098CDE9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC1B7B6C24402B420098CDE9 /* PersonalChef */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC1B7B6B24402B420098CDE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC1B7C3D2462A2180098CDE9 /* Burger.jpg in Resources */,
+				AC1B7B8024402B430098CDE9 /* LaunchScreen.storyboard in Resources */,
+				AC1B7B7D24402B430098CDE9 /* Assets.xcassets in Resources */,
+				AC1B7C472462A2180098CDE9 /* Cheeseburger.png in Resources */,
+				AC1B7C4E2462A2180098CDE9 /* Cheese Slice.jpg in Resources */,
+				AC1B7C432462A2180098CDE9 /* Black Label Burger.jpg in Resources */,
+				AC1B7C442462A2180098CDE9 /* Chopped Barbecue Sandwich.jpg in Resources */,
+				AC1B7C4B2462A2180098CDE9 /* Cioppino.jpg in Resources */,
+				AC1B7C4A2462A2180098CDE9 /* Chili Dog.jpg in Resources */,
+				AC1B7C502462A2180098CDE9 /* Charbroiled Oysters.JPG in Resources */,
+				AC1B7C3F2462A2180098CDE9 /* Buffalo Wings.jpg in Resources */,
+				AC1B7C232462A1C20098CDE9 /* allfoods2.csv in Resources */,
+				AC1B7C422462A2180098CDE9 /* Black Cod With Miso.jpg in Resources */,
+				AC1B7C452462A2180098CDE9 /* Chicken for Two.jpg in Resources */,
+				AC1B7C412462A2180098CDE9 /* Chorizo-Stuffed Medjool Dates.jpg in Resources */,
+				AC1B7C4C2462A2180098CDE9 /* Classic Chili.JPG in Resources */,
+				AC1B7C3B2462A2180098CDE9 /* Conch Chowder.jpg in Resources */,
+				AC1B7C512462A2180098CDE9 /* Chicago-Style Hot Dog.jpg in Resources */,
+				AC1B7C4F2462A2180098CDE9 /* Chicken and Waffles.jpg in Resources */,
+				AC1B7C1D246265D60098CDE9 /* allfoods.csv in Resources */,
+				AC1B7C462462A2180098CDE9 /* Cheesesteak.jpg in Resources */,
+				AC1B7C482462A2180098CDE9 /* Canlis Salad.jpg in Resources */,
+				AC1B7C492462A2180098CDE9 /* Carnitas Burrito.jpg in Resources */,
+				AC1B7C3E2462A2180098CDE9 /* Burgoo.jpg in Resources */,
+				AC1B7B7824402B420098CDE9 /* Main.storyboard in Resources */,
+				AC1B7C402462A2180098CDE9 /* Clam Chowder.jpeg in Resources */,
+				AC1B7C3C2462A2180098CDE9 /* Blackened Redfish.jpg in Resources */,
+				AC1B7C4D2462A2180098CDE9 /* colcannon.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC1B7B6924402B420098CDE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC1B7C02244B93000098CDE9 /* FoodItem.swift in Sources */,
+				AC1B7BAE2445130D0098CDE9 /* MainPageViewController.swift in Sources */,
+				AC1B7C04244B932C0098CDE9 /* RecipeItem.swift in Sources */,
+				AC1B7BBE244519BD0098CDE9 /* objectMachine.swift in Sources */,
+				AC1B7B7124402B420098CDE9 /* AppDelegate.swift in Sources */,
+				AC1B7C5A2463886F0098CDE9 /* NearbyFavoriteFoodUIViewController.swift in Sources */,
+				AC1B7B7324402B420098CDE9 /* SceneDelegate.swift in Sources */,
+				AC1B7BB2244513920098CDE9 /* FavoriteFoodsTableViewController.swift in Sources */,
+				AC1B7C5624633B290098CDE9 /* RecipeUITableViewCell.swift in Sources */,
+				AC1B7C18245BC1010098CDE9 /* BrowseFoodViewController.swift in Sources */,
+				AC1B7BFF244B921E0098CDE9 /* FavoriteObject.swift in Sources */,
+				AC1B7BB4244513FC0098CDE9 /* SavedRecipesTableViewController.swift in Sources */,
+				AC1B7BBA2445152B0098CDE9 /* BrowseFoodsUITableViewController.swift in Sources */,
+				AC1B7B7B24402B420098CDE9 /* PersonalChef.xcdatamodeld in Sources */,
+				AC1B7C58246385710098CDE9 /* FavoriteFoodTableViewCell.swift in Sources */,
+				AC1B7BB02445134F0098CDE9 /* RandomFoodViewController.swift in Sources */,
+				AC1B7BBC244515880098CDE9 /* RecipesTableViewController.swift in Sources */,
+				AC1B7C1B2462653A0098CDE9 /* RandomFoodGenerator.swift in Sources */,
+				AC1B7BFB244B91B20098CDE9 /* BrowseObject.swift in Sources */,
+				AC1B7BFD244B91CC0098CDE9 /* mainPageObject.swift in Sources */,
+				AC1B7BB6244514690098CDE9 /* RecipeInformationViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AC1B7B7624402B420098CDE9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC1B7B7724402B420098CDE9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC1B7B7E24402B430098CDE9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC1B7B7F24402B430098CDE9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC1B7B8224402B430098CDE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC1B7B8324402B430098CDE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC1B7B8524402B430098CDE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H3U99WR947;
+				INFOPLIST_FILE = PersonalChef/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = osmanbakari.PersonalChef;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC1B7B8624402B430098CDE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H3U99WR947;
+				INFOPLIST_FILE = PersonalChef/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = osmanbakari.PersonalChef;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC1B7B6824402B410098CDE9 /* Build configuration list for PBXProject "PersonalChef" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC1B7B8224402B430098CDE9 /* Debug */,
+				AC1B7B8324402B430098CDE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC1B7B8424402B430098CDE9 /* Build configuration list for PBXNativeTarget "PersonalChef" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC1B7B8524402B430098CDE9 /* Debug */,
+				AC1B7B8624402B430098CDE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AC1B7B7924402B420098CDE9 /* PersonalChef.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AC1B7B7A24402B420098CDE9 /* PersonalChef.xcdatamodel */,
+			);
+			currentVersion = AC1B7B7A24402B420098CDE9 /* PersonalChef.xcdatamodel */;
+			path = PersonalChef.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AC1B7B6524402B410098CDE9 /* Project object */;
+}
